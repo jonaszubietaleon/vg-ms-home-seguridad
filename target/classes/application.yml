@@ -1,17 +1,16 @@
-# Configuración del servidor web
 server:
-  port: 8080  # El puerto en el que la aplicación Spring Boot se ejecutará
+  port: ${PORT:8080}
 
 spring:
-  application:
-    name: Home # Nombre de la aplicación, útil para identificarla en logs o servicios
-
   r2dbc:
-    url: ${DATABASE_URL}  # URL para conexión a base de datos reactiva (R2DBC), tomada de variable de entorno DATABASE_URL
+    url: r2dbc:pool:postgresql://aws-0-us-west-1.pooler.supabase.com:5432/postgres
+    username: postgres.tuuxndxyhvjrnvqkgrma
+    password: UpfA3yGIo7CFFLyK
 
+  # Propiedades personalizadas - DEBEN estar en el nivel raíz
   security:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: ${JWT_ISSUER_URI}       # URI del emisor del JWT (proveedor de tokens), tomada de variable de entorno
-          jwk-set-uri: ${JWT_JWK_SET_URI}     # URI para obtener claves públicas JWK para validar tokens JWT
+          issuer-uri: https://securetoken.google.com/prs2-83d22
+          jwk-set-uri: https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com
