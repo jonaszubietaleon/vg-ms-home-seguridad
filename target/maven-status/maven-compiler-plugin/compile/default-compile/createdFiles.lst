@@ -1,0 +1,15 @@
+pe/edu/vallegrande/vg_ms_casas/exception/ConsumptionNotFoundException.class
+pe/edu/vallegrande/vg_ms_casas/VgMsCasasApplication.class
+pe/edu/vallegrande/vg_ms_casas/exception/GlobalExceptionHandler.class
+pe/edu/vallegrande/vg_ms_casas/service/ConsumptionService.class
+pe/edu/vallegrande/vg_ms_casas/config/SecurityConfig.class
+pe/edu/vallegrande/vg_ms_casas/model/Consumption.class
+pe/edu/vallegrande/vg_ms_casas/config/CorsConfig.class
+pe/edu/vallegrande/vg_ms_casas/repository/ConsumptionRepository.class
+pe/edu/vallegrande/vg_ms_casas/config/CustomAuthenticationToken.class
+pe/edu/vallegrande/vg_ms_casas/controller/ConsumptionController.class
+pe/edu/vallegrande/vg_ms_casas/exception/ConsumptionInactiveException.class
+pe/edu/vallegrande/vg_ms_casas/config/SecurityConfig$1.class
+pe/edu/vallegrande/vg_ms_casas/dto/ProductDTO.class
+pe/edu/vallegrande/vg_ms_casas/config/CorsConfig$1.class
+pe/edu/vallegrande/vg_ms_casas/webclient/ClientConsumption.class

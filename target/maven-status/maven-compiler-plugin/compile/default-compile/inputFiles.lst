@@ -1,0 +1,13 @@
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/VgMsCasasApplication.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/config/CorsConfig.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/config/CustomAuthenticationToken.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/config/SecurityConfig.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/controller/ConsumptionController.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/dto/ProductDTO.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/exception/ConsumptionInactiveException.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/exception/ConsumptionNotFoundException.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/exception/GlobalExceptionHandler.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/model/Consumption.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/repository/ConsumptionRepository.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/service/ConsumptionService.java
+/workspaces/vg-ms-home-seguridad/src/main/java/pe/edu/vallegrande/vg_ms_casas/webclient/ClientConsumption.java
